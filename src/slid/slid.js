@@ -10,10 +10,8 @@ import img6 from './slidImg/img6.jpg'
 import img7 from './slidImg/img7.jpg' 
 import img8 from './slidImg/img8.jpg' 
 import { useRef, useState } from "react";
-// Import Swiper React components
 
-// Import Swiper styles
-import "swiper/css";
+import "swiper/css"; 
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination" 
 import 'swiper/css/autoplay' 
@@ -21,9 +19,7 @@ import "swiper/css/navigation"
 import "swiper/css/pagination"
 import "./slid.css" 
 
-// import required modules 
-import { EffectCoverflow, Pagination , Autoplay , Navigation } from "swiper";
-
+import { EffectCoverflow, Pagination , Autoplay , Navigation } from "swiper"; 
 export default function SwiperSlid() { 
   return ( 
       <Swiper modules={[EffectCoverflow, Pagination , Autoplay , Navigation  ]} 
@@ -32,13 +28,12 @@ export default function SwiperSlid() {
         autoplay = {{ delay: 2000 }} 
         effect={"coverflow"}
         grabCursor={true}
-        centeredSlides={ false } // sa vor tru lini araji nkarn cuyc kta hakaraak dpqu m kntron 
-        // slidesPerView={"auto"} 
+        centeredSlides={ false } 
         coverflowEffect={{
           rotate: 40, 
           stretch: 0, 
           depth: 100,
-          modifier: 1 , // inch dzvi lini tequtyunn 
+          modifier: 1 , 
           slideShadows: true,
         }}
         pagination={true} 
