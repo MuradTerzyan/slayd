@@ -9,7 +9,7 @@ import img5 from './slidImg/img5.jpg'
 import img6 from './slidImg/img6.jpg' 
 import img7 from './slidImg/img7.jpg' 
 import img8 from './slidImg/img8.jpg' 
-import { useRef, useState } from "react";
+
 
 import "swiper/css"; 
 import "swiper/css/effect-coverflow";
